@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-5</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .header {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1100px;
+            height: 50px;
+        }
+
+        
+        h1 {
+            color: white;
+            text-align: center;
+        }
+          h2 {
+            color: red;
+            text-align: center;
+        }
+
+        .coll {
+            display: block;
+            height: 400px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+      
+
+        img[usemap],
+        map area {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../images/titlebar.png" alt="titlebar" style="border:5px solid white;" class="header" usemap="#map1" />
+    <map name="map1" id="map1">
+        <area shape="rect" coords="10,5,120,71" href="./index.html" />
+        <area shape="rect" coords="125,5,315,71" href="./pratical1.html" />
+        <area shape="rect" coords="320,5,480,71" href="./pratical2.html" />
+        <area shape="rect" coords="490,5,660,72" href="./practical3.html" />
+        <area shape="rect" coords="668,5,830,73" href="./index.html" />
+        <area shape="rect" coords="840,5,1000,72" href="./practical5.html" />
+        <div>
+            <h1>
+                Introduction to Front-End Technologies</h1>
+            <img src="../images/tools.jpg" alt="Technology images" usemap="#map2" class="coll" />
+            <map name="map2" id="map2">
+                <area shape="rect" coords="10,5,130,190" href="./pratical5-html.html" />
+                <area shape="circle" coords="211,80,140" href="../pratical5-css.html" />
+                <area shape="rect" coords="20,120,225,490" href="../pratical5-javascript.html" />
+                <area shape="rect" coords="20,120,225,490"
+                    href="../pratical5-bootstrap.html" />
+            </map>
+            <h2>
+                Click on any part of logo to know more about these technologies
+            </h2>
+        </div>
+
+    </map>
+</body>
+
+</html>
