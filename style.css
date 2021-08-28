@@ -1,0 +1,52 @@
+body {
+  background-color: #c5c5c5;
+}
+.heading {
+  text-align: center;
+  /* font-size: small; */
+  color: darkslategrey;
+}
+.cardbox {
+  width: 19rem;
+  height: 26rem;
+  background-color: white;
+  border-radius: 2%;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.cardwrap {
+  display: flex;
+}
+.img {
+  width: 17rem;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.subheading {
+  text-align: center;
+  margin-top: -1.5rem;
+}
+.info {
+  margin: 1rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.buttonRead {
+  background-color: red;
+  width: 17rem;
+  text-align: center;
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 9px;
+  padding-top: 1rem;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttonRead:hover {
+  background-color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
