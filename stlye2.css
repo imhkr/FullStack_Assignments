@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.navbar {
+  margin-top: -1rem;
+  width: auto;
+  background-color: #808080;
+  height: 4.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.navi {
+  list-style: none;
+  color: aquamarine;
+  /* display: flex;
+  justify-content: space-evenly; */
+  padding-top: 2px;
+}
+.navi li {
+  line-height: 70px;
+  display: inline-block;
+  padding-left: 4rem;
+}
+.navi li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 0px 20px;
+  display: block;
+}
+.navi li a:hover {
+  background-color: white;
+  color: black;
+}
+.backgroundimg {
+  background-image: url(./images/Pratical8/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.backgroundimg h2 {
+  color: white;
+  font-size: xxx-large;
+  padding: 1rem 2rem;
+}
+.title {
+  text-align: center;
+}
+.circle {
+  border-radius: 50%;
+  border-width: 4rem;
+}
+.flex {
+  display: flex;
+}
+.flex img {
+  margin: 1rem 2rem; /*top down left right*/
+}
+.AboutProject {
+  background-color: #808080;
+  width: 50%;
+  line-height: 30px;
+  padding: 0rem 1rem;
+  height: 33rem;
+}
+.AboutProject h2 {
+  color: white;
+  padding: 2rem 0rem 0rem 1rem; /* top down*/
+}
+.AboutProject p {
+  color: white;
+  font-size: large;
+}
+.article1 {
+  background-image: url(./Pratical-8/images/p1.jpg);
+  width: 90vh;
+  height: 10rem;
+  background-size: cover;
+  margin-left: 1rem;
+  margin-top: -1.5rem;
+  background-position: center;
+}
+.article2 {
+  background-image: url(./Pratical-8/images/p2.jpeg);
+  width: 90vh;
+  height: 10rem;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  background-size: cover;
+  background-position: center;
+}
+.article3 {
+  background-image: url(./Pratical-8/images/p3.jpg);
+  width: 90vh;
+  height: 10rem;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  background-size: cover;
+  background-position: center;
+}
+.flex1 {
+  display: flex;
+}
+.gap {
+  padding-left: 10rem;
+}
+
+.cardbox {
+  width: 18.5rem;
+  height: 26rem;
+  background-color: #c5c5c5;
+  border-radius: 2%;
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+}
+.cardbox p {
+  color: white;
+}
+.cardbox a {
+  text-decoration: none;
+  color: white;
+}
+.cardwrap {
+  display: flex;
+}
+.img {
+  width: 17rem;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.subheading {
+  text-align: center;
+  margin-top: -1.5rem;
+}
+.info {
+  margin: 1rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.buttonRead {
+  background-color: red;
+  width: 17rem;
+  text-align: center;
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 9px;
+  padding-top: 1rem;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttonRead:hover {
+  background-color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer {
+  background-color: violet;
+  text-align: center;
+  padding-top: 5px;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
