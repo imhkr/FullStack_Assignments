@@ -4,12 +4,14 @@ html {
 body {
   padding: 0px;
   margin: 0px;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  overflow-x: hidden;
+  width: 75.3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .navbar {
   margin-top: -1rem;
-  width: auto;
+
   background-color: #808080;
   height: 4.5rem;
   position: sticky;
@@ -120,6 +122,8 @@ body {
   border-radius: 2%;
   margin-top: 1rem;
   margin-left: 0.2rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .cardbox p {
   color: white;
@@ -130,6 +134,8 @@ body {
 }
 .cardwrap {
   display: flex;
+  /* width: 7rem; */
+  /* flex-shrink: 0; */
 }
 .img {
   width: 17rem;
@@ -158,6 +164,7 @@ body {
   font-size: large;
   text-decoration: none;
   cursor: pointer;
+  /* padding-bottom: 1rem; */
 }
 .buttonRead:hover {
   background-color: blue;
@@ -170,4 +177,54 @@ body {
   padding-top: 5px;
   height: 6rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .navbar {
+    display: flex;
+    height: 5rem;
+    justify-content: flex-end;
+  }
+  .navbar .navi ul {
+    display: flex;
+  }
+  .two {
+  }
+  /* h1 {
+    background-color: red;
+  } */
+}
+@media (min-width: 626px) and (max-width: 799px) {
+  body {
+    overflow-x: hidden;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .navbar {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+  }
+  .navbar .navi ul {
+    display: flex;
+  }
+  /* h1 {
+    background-color: red;
+  } */
+  .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    margin-left: 20rem;
+    margin-right: 10rem;
+  }
+  .AboutProject {
+    width: 50rem;
+  }
 }
